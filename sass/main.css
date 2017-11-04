@@ -2943,6 +2943,9 @@ body.is-menu-visible #menu {
   @media screen and (max-width: 736px) {
     #wrapper > * > .inner {
       padding: 0 1.25em; } }
+  #wrapper > * > .inner .ingredients {
+    float: left;
+    width: 50%; }
   #wrapper > * > .inner .tags {
     margin: 50px 0; }
     #wrapper > * > .inner .tags a.button {
